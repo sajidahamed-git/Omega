@@ -3876,3 +3876,16 @@ body.is-menu-visible #menu {
   margin-bottom: 1rem;
   vertical-align: middle;
 }
+
+
+
+.card-hover {
+  transition: transform 0.25s cubic-bezier(.4, 0, .2, 1), box-shadow 0.25s;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.12);
+}
