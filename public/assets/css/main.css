@@ -2800,7 +2800,7 @@ ul.icons li .icon:before {
   opacity: 0.6;
   position: absolute;
   top: 0;
-  webkit-linear-gradientidth: 100%;
+  /* webkit-linear-gradientidth: 100%; */
   width: 100%;
   z-index: 1;
 }
@@ -3823,7 +3823,7 @@ body:before {
   right: 0;
   text-align: right;
   top: 0;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   width: 7rem;
 }
 #menu .close:before {
