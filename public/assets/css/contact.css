@@ -1,0 +1,80 @@
+/* Wrapper for contact page */
+.wrapper-contact {
+  padding: 1.5rem 0 3rem 0;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 1280px) {
+  .wrapper-contact {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+}
+@media screen and (max-width: 736px) {
+  .wrapper-contact {
+    padding: 1.5rem 0 0.5rem 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper-contact {
+    padding: 0.5rem 0 0.1rem 0;
+  }
+}
+
+.contact-main-div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.contact-headoffice {
+  background: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #1a237e;
+}
+
+.contact-branches-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  width: 100%;
+}
+.contact-info {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      padding: 2rem;
+    }
+    .contact-info h2 {
+      margin-top: 0;
+      color: #1a237e;
+    }
+    .contact-details {
+      margin-bottom: 2rem;
+    }
+    .contact-label {
+      font-weight: bold;
+      color: #0d47a1;
+    }
+    .primary-contact {
+      font-size: 1.25rem;
+      color: #b71c1c;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    .branches {
+      margin-top: 2rem;
+    }
+    .branch {
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 600px) {
+      .contact-info { padding: 1rem; }
+    }

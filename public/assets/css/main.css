@@ -838,7 +838,6 @@ ul.alt li:first-child {
 ul.alt li:last-child {
   padding-bottom: 0;
 }
-
 dl {
   margin: 0 0 2rem 0;
 }
@@ -3877,10 +3876,8 @@ body.is-menu-visible #menu {
   vertical-align: middle;
 }
 
-
-
 .card-hover {
-  transition: transform 0.25s cubic-bezier(.4, 0, .2, 1), box-shadow 0.25s;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s;
   will-change: transform;
   cursor: pointer;
 }
@@ -3889,3 +3886,4 @@ body.is-menu-visible #menu {
   transform: scale(1.04);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.12);
 }
+
