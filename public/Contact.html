@@ -6,6 +6,7 @@
   <title>Contact Us | Omega Lab</title>
   <link rel="stylesheet" href="./assets/css/main.css" />
   <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 <body>
   <header id="header">
@@ -17,49 +18,87 @@
       <a href="Contact.html">Contact</a>
     </nav>
   </header>
-  <section class="wrapper-contact">
-    <div class="inner contact-info" style="margin-top: 0;">
-      <header class="special">
-        <h1>Contact Us</h1>
-      </header>
-      <div class="contact-main-div">
-        <!-- Head Office Card -->
-        <div class="contact-headoffice">
-          <h2 style="margin-top: 0; color: #1a237e;">Head Office</h2>
-          <p style="margin-bottom: 1.5rem;">
-            Omega Lab Private Limited<br>
-            123 Main Road,<br>
-            Industrial Estate,<br>
-            Chennai - 600001,<br>
-            Tamil Nadu, India
-          </p>
-          <span class="primary-contact">📧 <a href="mailto:info@omegalab.com">info@omegalab.com</a></span>
-          <span class="primary-contact">📱 <a href="tel:+919876543210">+91 98765 43210</a></span>
+
+  <main>
+    <section id="banner">
+      <div class="inner">
+        <h1>Get in Touch</h1>
+        <p>We're here to help and answer any questions you might have</p>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="contact-container">
+        <!-- Main Contact Info -->
+        <div class="contact-info-card">
+          <div class="contact-header">
+            <i class="fas fa-building"></i>
+            <h2>Head Office</h2>
+          </div>
+          <div class="contact-details">
+            <div class="address">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>
+                Omega Lab Private Limited<br>
+                123 Main Road, Industrial Estate<br>
+                Chennai - 600001<br>
+                Tamil Nadu, India
+              </p>
+            </div>
+            <div class="contact-methods">
+              <a href="mailto:info@omegalab.com" class="contact-link">
+                <i class="fas fa-envelope"></i>
+                info@omegalab.com
+              </a>
+              <a href="tel:+919876543210" class="contact-link">
+                <i class="fas fa-phone"></i>
+                +91 98765 43210
+              </a>
+            </div>
+          </div>
         </div>
-        <!-- Branches Row -->
-        <div class="contact-branches-container">
-          <div class="office-card" style="background: #fff; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 1.5rem; max-width: 320px; width: 100%; text-align: center; border: 1.5px solid #90caf9;">
-            <span class="contact-label">Branch 1</span><br>
-            45, North Avenue,<br>
-            Coimbatore - 641001,<br>
-            Tamil Nadu, India
+
+        <!-- Branch Offices -->
+        <div class="branches-grid">
+          <div class="branch-card">
+            <div class="branch-header">
+              <i class="fas fa-map-pin"></i>
+              <h3>Coimbatore Branch</h3>
+            </div>
+            <p>
+              45, North Avenue<br>
+              Coimbatore - 641001<br>
+              Tamil Nadu, India
+            </p>
           </div>
-          <div class="office-card" style="background: #fff; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 1.5rem; max-width: 320px; width: 100%; text-align: center; border: 1.5px solid #90caf9;">
-            <span class="contact-label">Branch 2</span><br>
-            78, Park Street,<br>
-            Hyderabad - 500001,<br>
-            Telangana, India
+
+          <div class="branch-card">
+            <div class="branch-header">
+              <i class="fas fa-map-pin"></i>
+              <h3>Hyderabad Branch</h3>
+            </div>
+            <p>
+              78, Park Street<br>
+              Hyderabad - 500001<br>
+              Telangana, India
+            </p>
           </div>
-          <div class="office-card" style="background: #fff; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 1.5rem; max-width: 320px; width: 100%; text-align: center; border: 1.5px solid #90caf9;">
-            <span class="contact-label">Branch 3</span><br>
-            12, MG Road,<br>
-            Bengaluru - 560001,<br>
-            Karnataka, India
+
+          <div class="branch-card">
+            <div class="branch-header">
+              <i class="fas fa-map-pin"></i>
+              <h3>Bengaluru Branch</h3>
+            </div>
+            <p>
+              12, MG Road<br>
+              Bengaluru - 560001<br>
+              Karnataka, India
+            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
+
   <footer id="footer">
     <div class="inner">
       <div class="content">
@@ -70,9 +109,11 @@
       </div>
     </div>
   </footer>
+
   <div id="copyright" class="copyright">
     Design by <a href="https://templated.co/">TEMPLATED</a>.
   </div>
+
   <script src="../assets/js/jquery.min.js"></script>
   <script src="../assets/js/browser.min.js"></script>
   <script src="../assets/js/breakpoints.min.js"></script>
