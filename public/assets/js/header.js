@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () =>{
   const header = document.createElement("header");
   header.id = "header";
   header.innerHTML = `
-    <a class="logo" href="index.html">Since 1989</a>
+    <a class="logo" href="/">Since 1989</a>
     <nav>
       <a href="/">Home</a>
-      <a href="Contact.html">Contact Us</a>
-      <a href="elements.html">Elements</a>
+      <a href="elements.html">Services</a>
+      <a href="/Contact.html">Contact Us</a>
     </nav>
   `;
   
