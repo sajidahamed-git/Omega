@@ -1,0 +1,157 @@
+/* Banner height adjustment for desktop */
+@media screen and (max-width: 480px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.25);
+  }
+  .branches-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 981px) {
+  #banner {
+    height: 30vh !important;
+    min-height: 30vh;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.25);
+    margin: 1rem;
+    gap: 2rem;
+  }
+
+  .branches-container {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+/* Contact Info Card */
+.head-office-card,
+.contact-info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-color: #e44c65;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e44c65;
+}
+
+.branch-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-color: #e44c65;
+  border-width: 1px;
+  border-style: solid;
+
+
+
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-header i {
+  font-size: 1.5rem;
+  color: #e44c65;
+}
+
+.contact-header h2 {
+  margin: 0;
+  color: #e44c65;
+  font-weight: 600;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #444444;
+}
+
+.address {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  color: #444444;
+}
+
+.address i {
+  color: #e44c65;
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #444444;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+.contact-link:hover {
+  color: #e44c65;
+  text-decoration: none;
+}
+
+.contact-link i {
+  font-size: 1.2rem;
+}
+
+.branch-card:hover {
+  transform: translateY(-5px);
+}
+
+.branch-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Add spacing between the icon and the heading */
+  text-align: center; /* Ensure text alignment is centered */
+  margin-bottom: 1rem;
+
+  i {
+    color: #e44c65;
+    font-size: 1.2rem;
+  }
+
+}
+
+.branch-header h3 {
+  margin: 0;
+  color: #e44c65;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.branch-card p {
+  margin: 0;
+  line-height: 1.65;
+  color: #444444;
+}
