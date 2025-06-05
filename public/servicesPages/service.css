@@ -1,5 +1,6 @@
 .content {
     display: flex;
+    
 
 }
 
@@ -19,4 +20,10 @@
 
 .bold {
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
 }
