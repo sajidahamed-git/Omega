@@ -128,7 +128,9 @@
 .branch-header {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  justify-content: center;
+  gap: 0.5rem; /* Add spacing between the icon and the heading */
+  text-align: center; /* Ensure text alignment is centered */
   margin-bottom: 1rem;
 }
 
