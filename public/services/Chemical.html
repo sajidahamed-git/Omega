@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="./service.css" />
     <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/carousel.css">
+    <script src="../assets/js/carousel.js" defer></script>
     <script src="../assets/js/header.js" defer></script>
     <script src="../assets/js/footer.js" defer></script>
   </head>
@@ -28,7 +30,7 @@
             compliance.
           </p>
         </header>
-        <div class="content">
+        <div class="service-flex-container">
           <div class="left">
             <h2>Our Capabilities</h2>
             <ul>
@@ -68,13 +70,10 @@
               materials.
             </p>
           </div>
-          <div class="right">
-            <img
-              src="../assets/downloaded/Chamical.png"
-              alt="Chemical Analysis"
-              class="responsive-image"
-            />
-          </div>
+          <div class="carousel" data-folder="chemical">
+            <!-- carousel is added here with js  -->
+             <!-- save the images in public/assets/carousel/chemical -->
+            </div>
         </div>
       </div>
     </section>

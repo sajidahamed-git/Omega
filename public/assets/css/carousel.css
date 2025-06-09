@@ -1,0 +1,27 @@
+.carousel {
+  position: relative;
+  max-width: 500px;
+  overflow: hidden;
+}
+.carousel img {
+  width: 100%;
+  display: none;
+}
+.carousel img.active {
+  display: block;
+}
+.carousel-controls {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+
+.carousel-controls button img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
