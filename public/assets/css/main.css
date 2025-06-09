@@ -978,8 +978,11 @@ table.alt tbody tr td {
 .highlights .content {
   border-radius: 4px;
   height: 100%;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
+}
+.content {
+  min-height: 380px;
 }
 .highlights .content .icon {
   font-size: 5rem;
