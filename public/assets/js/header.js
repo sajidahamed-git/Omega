@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     <nav>
       <a href="/">Home</a>
       <a href="/index.html#services-section">Services</a>
+      <a href="/cetificate.html">Certificates</a>
       <a href="/Contact.html">Contact Us</a>
     </nav>
   `;
