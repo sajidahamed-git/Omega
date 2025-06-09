@@ -3312,10 +3312,6 @@ body.is-preload #banner:before {
   }
 }
 
-/* Header */
-body {
-  padding-top: 3.25rem;
-}
 body:before {
   content: " ";
   background-image: url(../../images/bg.jpg);
@@ -3412,9 +3408,6 @@ body:before {
 }
 
 @media screen and (max-width: 980px) {
-  body {
-    padding-top: 44px;
-  }
 
   #header {
     height: 44px;
