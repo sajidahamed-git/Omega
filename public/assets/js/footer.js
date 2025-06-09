@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
   content.className = "content";
 
   const section = document.createElement("section");
-  section.innerHTML = `
+  section.innerHTML = 
+  `
     <h3>Contact Us</h3>
     <p>
       <strong>Phone:</strong> <a href="tel:+917305072288">+91 73050 72288</a><br>
@@ -22,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
       Omega Lab Private Limited<br />
       Trusted Testing &amp; Inspection Since 1989
     </p>
-  `;
+  `
+  ;
 
   content.appendChild(section);
   inner.appendChild(content);
