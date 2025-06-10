@@ -24,4 +24,17 @@
   display: block;
   width: 24px;
   height: 24px;
+  
+  /* border: none; */
+}
+@media screen and (max-width: 768px) {
+  .carousel-controls{
+    top: 60%;
+    width: 100%;
+  }
+  .carousel-controls button img {
+    width: 18px;
+    height: 20px;
+    /* border: none; */
+  }
 }

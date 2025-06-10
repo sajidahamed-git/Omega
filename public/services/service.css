@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  .service-flex-container {
     flex-direction: column;
   }
 }
