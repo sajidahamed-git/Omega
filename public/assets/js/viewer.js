@@ -4,7 +4,7 @@ import * as pdfjsLib from '/assets/js/pdf/pdfjs-dist/build/pdf.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = '/assets/js/pdf/pdfjs-dist/build/pdf.worker.mjs';
 
 // Correct path to PDF file
-const url = 'assets/downloaded/dummy.pdf';
+const url = 'assets/downloaded/NABL Certificate-TC-6247.pdf';
 
 const canvas = document.getElementById('pdf-canvas');
 const ctx = canvas.getContext('2d');
