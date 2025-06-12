@@ -3362,7 +3362,8 @@ body:before {
   font-weight: 600;
   height: inherit;
   line-height: inherit;
-  padding: 1 2rem;
+  /* padding: 1 2rem; */
+  padding-left: 2rem;
   text-decoration: none;
 }
 #header > nav > a {
