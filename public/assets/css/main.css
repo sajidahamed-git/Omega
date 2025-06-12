@@ -2551,8 +2551,8 @@ ul.icons li .icon:before {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  height: 30rem !important;
+  min-height: 30rem;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -3352,7 +3352,6 @@ body:before {
   height: 3.25rem;
   /* left: 0; */
   line-height: 3.25rem;
-  position: fixed;
   top: 0;
   width: 100%;
   z-index: 10001;
@@ -3420,6 +3419,10 @@ body:before {
 @media screen and (max-width: 480px) {
   #header {
     min-width: 320px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 1rem;
   }
 }
 /* Heading */
