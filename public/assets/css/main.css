@@ -3333,29 +3333,7 @@ body:before {
   opacity: 0.05;
 }
 
-#header {
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  align-items: center;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  background: #111111;
-  color: rgba(255, 255, 255, 0.5);
-  cursor: default;
-  height: 3.25rem;
-  /* left: 0; */
-  line-height: 3.25rem;
-  top: 0;
-  width: 100%;
-  z-index: 10001;
-}
+
 #header > .logo {
   color: #ffffff;
   font-size: 1rem;
@@ -3410,7 +3388,6 @@ body:before {
 }
 
 @media screen and (max-width: 980px) {
-
   #header {
     height: 44px;
     line-height: 44px;
@@ -3876,10 +3853,8 @@ body.is-menu-visible #menu {
   vertical-align: middle;
 }
 
-
-
 .card-hover {
-  transition: transform 0.25s cubic-bezier(.4, 0, .2, 1), box-shadow 0.25s;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s;
   will-change: transform;
   cursor: pointer;
 }

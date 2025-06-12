@@ -3,17 +3,17 @@ document.addEventListener("DOMContentLoaded", () => {
   header.id = "header";
   header.innerHTML = `
     <a class="logo" href="/">Since 1989</a>
+    <button id="nav-toggle" aria-label="Open navigation menu">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
     <nav id="nav-menu">
       <a href="/">Home</a>
       <a href="/index.html#services-section">Services</a>
       <a href="/certificate.html">Certificates</a>
       <a href="/Contact.html">Contact Us</a>
     </nav>
-    <button id="nav-toggle" aria-label="Open navigation menu">
-      <span class="hamburger"></span>
-      <span class="hamburger"></span>
-      <span class="hamburger"></span>
-    </button>
   `;
 
   document.getElementById("header-placeholder").appendChild(header);

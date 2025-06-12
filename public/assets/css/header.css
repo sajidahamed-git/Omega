@@ -1,4 +1,14 @@
 /* Header and navigation styles for responsive hamburger menu */
+#header {
+  background: #111111;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;
+}
+
 
 #header nav {
   display: flex;
@@ -27,6 +37,7 @@
   border: none;
   cursor: pointer;
   gap: 5px;
+  z-index: 101;
 }
 #nav-toggle .hamburger {
   width: 28px;
@@ -49,10 +60,19 @@
     padding: 1rem 0.5rem;
     gap: 1.5rem;
     display: none;
+    z-index: 99;
+  }
+  #header nav a {
+    font-size: 1.2rem;
+    /* padding: 0.5rem 1rem; */
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(109, 104, 104);
   }
   #header nav.open {
     display: flex;
     align-items: center;
+    /* border: 1px solid #e44c65; */
   }
   #nav-toggle {
     display: flex;
