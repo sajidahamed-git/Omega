@@ -8,6 +8,8 @@
   display: none;
 }
 .carousel img.active {
+  border: 1px solid #E44C65;
+  border-radius: 8px;
   display: block;
 }
 .carousel-controls {
@@ -17,15 +19,17 @@
   display: flex;
   justify-content: space-between;
   transform: translateY(-50%);
+  /* background-color: black; */
 }
-
+.carousel-controls button {
+  background-color: rgba(44, 44, 44, 0.7);
+  margin: 0.5rem;
+}
 
 .carousel-controls button img {
   display: block;
   width: 24px;
   height: 24px;
-  
-  /* border: none; */
 }
 @media screen and (max-width: 768px) {
   .carousel-controls{
