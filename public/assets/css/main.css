@@ -3072,7 +3072,8 @@ body.is-preload #banner:before {
 #footer {
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
-  padding: 8rem 0 6rem 0;
+  padding: 4rem 0 4rem 0;
+  height: 360px;
 }
 #footer input,
 #footer select,
@@ -3335,11 +3336,11 @@ body:before {
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  align-items: center;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
@@ -3348,7 +3349,7 @@ body:before {
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
-  left: 0;
+  /* left: 0; */
   line-height: 3.25rem;
   position: fixed;
   top: 0;
@@ -3361,7 +3362,7 @@ body:before {
   font-weight: 600;
   height: inherit;
   line-height: inherit;
-  padding: 0 1.25rem;
+  padding: 1 2rem;
   text-decoration: none;
 }
 #header > nav > a {
@@ -3369,9 +3370,6 @@ body:before {
   display: inline-block;
   padding: 0 0.75rem;
   text-decoration: none;
-}
-#header > nav > a:hover {
-  color: #ffffff;
 }
 #header > nav > a[href="#menu"] {
   text-decoration: none;
