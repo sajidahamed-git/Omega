@@ -7,8 +7,16 @@
   justify-content: space-between;
   position: relative;
   z-index: 100;
+  height: 4rem;
 }
-
+#header > .logo {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: inherit;
+  padding-left: 2rem;
+  text-decoration: none;
+}
 
 #header nav {
   display: flex;
