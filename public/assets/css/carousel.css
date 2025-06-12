@@ -13,17 +13,21 @@
   display: block;
 }
 .carousel-controls {
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
+  text-align: center;
+  /* position: absolute; */
+  /* top: 40%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* transform: translateY(-50%); */
   /* background-color: black; */
 }
 .carousel-controls button {
-  background-color: rgba(44, 44, 44, 0.7);
+  background-color: rgba(173, 164, 164, 0.7);
   margin: 0.5rem;
+  /* border: none; */
+  cursor: pointer;
+
 }
 
 .carousel-controls button img {
