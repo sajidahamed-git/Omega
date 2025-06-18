@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".carousel").forEach(async (carousel) => {
     const folder = carousel.dataset.folder;
@@ -9,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const totalImages = 7; // Adjust based on max expected images
     let images = [];
+    let autoPlayInterval;
 
     //support for jpg images only
     for (let i = 1; i <= totalImages; i++) {
@@ -61,8 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
     controls.appendChild(prev);
     controls.appendChild(next);
     carousel.appendChild(controls);
-    // const prev = carousel.querySelector(".carousel-prev");
-    // const next = carousel.querySelector(".carousel-next");
 
     const imgEls = carousel.querySelectorAll("img.carousel-image");
     let current = 0;
@@ -80,6 +77,11 @@ document.addEventListener("DOMContentLoaded", () => {
       current = (current + 1) % imgEls.length;
       show(current);
     };
+
+    // Start auto-advancing every 2 seconds
+    autoPlayInterval = setInterval(() => {
+      next.click();
+    }, 3000);
   });
 });
 
